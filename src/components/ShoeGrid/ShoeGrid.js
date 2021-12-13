@@ -14,6 +14,14 @@ const ShoeGrid = () => {
   );
 };
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+
+  img {
+    width: 300px;
+  }
+`;
 
 export default ShoeGrid;
